@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wiki</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+	  <h1>Wiki</h1>
+      <li>Home</li>
+	  <a href="Doc.html">Click</a>
+	  <li>Create New Page</li>
+	  <a href="Document6.html">Click</a>
+	 <a href="#"><li>Random Page</li></a>
+	  <a href="google.html"</a>
+<div class="wrappeer">
+   <input type="text" class="input" placeholder="search here">
+      <div class="searchbtn"
+	 
+	  </div>
+	
+</body>
+</html>
