@@ -1,0 +1,87 @@
+.google-search-links {
+    text-align: right;
+    margin: 15px;
+}
+
+a {
+    text-decoration: none;
+    margin: 5px;
+    font-size: 15px;
+    color: rgba(0,0,0,.87);
+}
+
+a:hover {
+    border-bottom: 2px solid;
+}
+
+.google-search {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    position: absolute;
+    top: 20%;
+    display: block;
+}
+
+form > div {
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 55px;
+}
+
+.blue {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+
+.orange {
+    color: orange;
+}
+
+.green {
+    color:green;
+}
+
+.search-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 60vh;
+    padding: 5px;
+    border-radius: 6px;
+    border: #cccccc 2px solid;
+}
+
+input:focus {
+    outline: none !important;
+    box-shadow: #cccccc 0 0 14px ;
+    border: transparent 2px solid;
+}
+
+.button {
+    background-color: #f8f9fa;
+    border: #f8f9fa 2px solid;
+    padding: 5px 18px 5px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 35%;
+}
+
+.button:hover {
+    border: #cccccc 2px solid;
+}
+
+#advance-button {
+    background-color: blue;
+    color: white;
+}
