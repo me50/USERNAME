@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Advanced Search</title>
+    <style>
+        .alignright{
+            position: absolute;
+            right: 0;
+        }
+        .content{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-items: center;
+        }
+        form{
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+        .searchs{
+            border: 1px solid gray;
+            padding: 0px 20px;
+        }
+        .searchs:focus{
+            outline: none;
+            font-size: 13px;
+
+        }
+        input[type=submit]{
+            width:120px;
+            height: 35px;
+            border: none;
+            cursor: pointer;
+        }
+        input[type=submit]:hover{
+            border-radius: 10px;
+            outline: 1px solid gray;
+        }
+        .submitbtns{
+            margin-top: 10px;
+            display: flex;
+            align-items: left;
+            flex-direction: column;
+            gap: 10px;
+        }
+        img{
+            width: 350px;
+        }
+        .inpt{
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+        }
+        #advsearch{
+            margin-top: 10px;
+            font-weight: bold;
+            background-color: rgb(51, 152, 219);
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="alignright">
+        <a href="index.html">Google Search</a>
+        <a href="googleimage.html">Google Images</a>
+    </div>
+    <div class="content">
+
+
+    <form action="https://www.google.com/search">
+        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/eec61cb0-052d-4686-8336-d6243217a443/dga3r4a-16f023db-9599-443a-8ad8-e81753ce3e7e.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2VlYzYxY2IwLTA1MmQtNDY4Ni04MzM2LWQ2MjQzMjE3YTQ0M1wvZGdhM3I0YS0xNmYwMjNkYi05NTk5LTQ0M2EtOGFkOC1lODE3NTNjZTNlN2UuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.91WDfZn51euv8hUkiZKmk-BDOoVsLnLpgmhjj1VgHH4" alt="">
+        <div class="submitbtns">
+
+            <div class="inpt">
+                <label for="">All these words: </label><input type="text" name="as_q" class="searchs">
+            </div>
+            <div class="inpt">
+                <label for="">This exact word: </label><input type="text" name="as_epq" class="searchs">
+            </div>
+            <div class="inpt">
+                <label for="">Any of these words: </label><input type="text" name="as_oq" class="searchs">
+            </div>
+            <div class="inpt"> 
+                <label for="">None of these words: </label><input type="text" name="as_eq" class="searchs">
+            </div>
+           
+        </div>
+
+
+        <input type="submit" value="Advanced Search" id="advsearch">
+    </form>    
+</div>
+</body>
+</html>
