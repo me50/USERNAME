@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Image</title>
+    <style>
+        .alignright{
+            position: absolute;
+            right: 0;
+        }
+        .content{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-items: center;
+        }
+        form{
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+        #search{
+            width: 450px;
+            height: 35px;
+            border-radius: 10px;
+            border: 1px solid gray;
+            padding: 0px 20px;
+        }
+        #search:focus{
+            outline: none;
+            font-size: 17px;
+
+        }
+        input[type=submit]{
+            width:120px;
+            height: 35px;
+            border: none;
+            cursor: pointer;
+        }
+        input[type=submit]:hover{
+            border-radius: 10px;
+            outline: 1px solid gray;
+        }
+        .submitbtns{
+            margin-top: 10px;
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+        img{
+            width: 350px;
+        }
+    </style>
+</head>
+<body>
+    <div class="alignright">
+        <a href="index.html">Google Search</a>
+        <a href="googleadvs.html">Google Advanced Search</a>
+    </div>
+    
+    <div class="content">
+        <form action="https://www.google.com/search">
+            <img src="https://live.staticflickr.com/5538/14058463006_710aa8b681_b.jpg" alt="">
+            <br>
+            <input type="text" name="q" id="search">
+            <input type="hidden" name="tbm" value="isch">
+            <div class="submitbtns">
+
+                <input type="submit" value="Search">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

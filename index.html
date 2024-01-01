@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Search</title>
+    <style>
+        .alignright{
+            position: absolute;
+            right: 0;
+        }
+        .content{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-items: center;
+        }
+        form{
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+        #search{
+            width: 450px;
+            height: 35px;
+            border-radius: 10px;
+            border: 1px solid gray;
+            padding: 0px 20px;
+        }
+        #search:focus{
+            outline: none;
+            font-size: 17px;
+
+        }
+        input[type=submit]{
+            width:120px;
+            height: 35px;
+            border: none;
+            cursor: pointer;
+        }
+        input[type=submit]:hover{
+            border-radius: 10px;
+            outline: 1px solid gray;
+        }
+        .submitbtns{
+            margin-top: 10px;
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+        img{
+            width: 350px;
+        }
+    </style>
+</head>
+<body>
+    <div class="alignright">
+        <a href="googleimage.html">Google Images</a>
+        <a href="googleadvs.html">Google Advanced Search</a>
+    </div>
+    <div class="content">
+
+        <form action="https://www.google.com/search">
+
+            <img src="https://live.staticflickr.com/7296/16354081639_5f13bdc7a3_b.jpg" alt="">  
+            <br>      
+
+            <input type="text" name="q" id="search">
+            <br>
+            <div class="submitbtns">
+                <input type="submit" value="Search">
+                <input type="submit" name="btnI" value="I'm feeling Lucky" formaction="https://google.com/search?&btnI=1">
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>
+
