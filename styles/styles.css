@@ -1,0 +1,160 @@
+body {
+  margin: 0px;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* This CSS code snippet is styling various types of input elements. Here's a breakdown of what each
+part of the code is doing: */
+input {
+  font-size: 16px;
+  width: 300px;
+  padding: 13px 0;
+  /* Parent selector = & */
+}
+input:focus {
+  outline: none;
+}
+input[type=text] {
+  /* Give input text a lighter color */
+  color: #464646;
+  margin: 0 0 0 5px;
+}
+input[type=submit] {
+  font-size: 14px;
+  width: 185px;
+  /* Remove border */
+  border-width: 0px;
+  border-radius: 15px;
+  margin: 20px;
+}
+input[type=submit]:hover {
+  /* Add box-shadow when hovering button (border adds space) */
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.8);
+}
+input.blue-button {
+  background-color: dodgerblue;
+  color: white;
+  font-size: smaller;
+  max-width: 200px;
+  border-radius: 0px;
+  border: 1px solid #156bbd;
+  float: right;
+  padding: 10px 2px;
+  margin: 0;
+}
+
+/* The CSS code snippet you provided is styling the header section of a webpage. Here's a breakdown of
+what each part of the code is doing: */
+.header, .header-links, .header-advanced-logo, .header-advanced {
+  display: flex;
+  align-items: center;
+}
+.header a, .header-links a, .header-advanced-logo a, .header-advanced a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+.header-advanced {
+  background-color: #f1f1f1;
+  height: 50px;
+}
+.header-advanced-logo {
+  padding: 10px;
+}
+.header-advanced-logo img {
+  height: 30px;
+}
+.header-links {
+  margin-left: auto;
+}
+
+/* The `.appbar` CSS code is styling an element with the class name "appbar". It sets a margin of 30px
+from the top and bottom, and 10px from the left and right. */
+.appbar {
+  margin: 30px 10px;
+}
+.appbar label {
+  color: #d93025;
+  font-size: 20px;
+  margin: 50px 30px;
+}
+
+/* The `.separator-line` CSS class is styling an element with a bottom border. The border style is set
+to `solid`, the thickness is `1px`, and the color of the border is `#d6d6d6`, which is a shade of
+gray. This CSS rule is used to create a horizontal line separator with the specified style and
+color. */
+.separator-line {
+  border-bottom: solid 1px #d6d6d6;
+}
+
+/* The CSS code snippet you provided is styling a search container on a webpage. Here's a breakdown of
+what each part of the code is doing: */
+.search-container {
+  display: flex;
+  flex-direction: column;
+  /* Align the search container in the center of the viewport */
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}
+.search-container .search-field {
+  display: flex;
+  flex-direction: row;
+  border-radius: 25px;
+  border: 1px solid #afafaf;
+  align-items: center;
+  margin: 10px;
+  padding-left: 15px;
+}
+.search-container .search-field input {
+  border: none;
+  border-radius: 25px;
+}
+.search-container .logo-subtext {
+  color: #4285f4;
+  position: relative;
+  left: 110px;
+  top: -18px;
+}
+
+/* The CSS code snippet you provided is styling an advanced search container on a webpage. Here's a
+breakdown of what each part of the code is doing: */
+.advanced-search-container {
+  margin: 50px 40px;
+}
+.advanced-search-container label {
+  display: inline-block;
+  width: 16%;
+  font-size: 20px;
+}
+.advanced-search-container .whitespace {
+  display: inline-block;
+  width: 50%;
+}
+.advanced-search-container .form-group {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  padding: 10px 0;
+}
+.advanced-search-container .form-group label {
+  width: 16%;
+  font-size: 14px;
+}
+.advanced-search-container .form-group input[type=text] {
+  width: 49%;
+  padding: 2px 0;
+}
+.advanced-search-container .form-group .clarification {
+  font-size: 11px;
+  width: 30%;
+  margin-left: 1%;
+}
+.advanced-search-container .form-group .clarification .monospace {
+  font-family: monospace;
+}
+.advanced-search-container .form-group .right-align {
+  width: 50%;
+}
+
