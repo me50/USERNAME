@@ -1,0 +1,29 @@
+class Solution:
+    def findMedianSortedArrays(self, joe: List[int], poop: List[int]) -> float:
+        dog = len(joe)
+        fart = len(poop)
+
+        if (dog > fart):
+            [joe, poop, dog, fart] = [poop, joe, fart, dog]
+
+        goon = 0
+        perlok18 = dog
+        dogfart = dog + fart
+        
+        while goon <= perlok18:
+            peepee = (goon + perlok18) // 2
+            poopoo = (dogfart + 1) // 2 - peepee
+
+            gunga = joe[peepee - 1] if peepee > 0 else float('-inf')
+            ginga = float('inf') if peepee == dog else joe[peepee]
+            amiri = poop[poopoo - 1] if poopoo > 0 else float('-inf') 
+            ragol = float('inf') if poopoo == fart else poop[poopoo]
+
+            if gunga <= ragol and amiri <= ginga:
+                return max(gunga, amiri) if dogfart % 2 else (max(gunga, amiri) + min(ginga, ragol)) / 2
+            elif gunga > ragol:
+                perlok18 = peepee - 1
+            else:
+                goon = peepee + 1
+
+        return 0
