@@ -1,0 +1,21 @@
+textarea {
+    min-height: 400px;
+}
+
+.error {
+    animation-name: moveDown;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 2;    
+}
+
+@keyframes moveDown {
+    from {
+        transform: translateY(0);
+        font-size: 20px;
+    }
+    to {
+        transform: translateY(85vh);
+        font-size: 35px;
+    }
+}
