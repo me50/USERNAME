@@ -1,0 +1,223 @@
+*{
+    margin:0px;
+    padding: 0px;
+    color: black;
+}
+body{
+    font-family: Arial, sans-serif;
+}
+.head{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.head #links{
+    margin-right: 30px;
+    display: flex;
+}
+.head a{
+    margin-left: 30px;
+    font-size: small;
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+}
+.head #links a:hover{
+    border: bottom 1px solid rgba(0, 0, 0, 0.789);   
+}
+html, body {
+    overflow: hidden; 
+    height: auto;
+    margin: 0;
+}
+#advmain { 
+    overflow-y: auto; 
+    background-color: black;
+}
+.head #advlinks a:hover{
+    border: bottom 1px solid rgba(0, 0, 0, 0.789);   
+   
+}
+#main{
+    height: 75vh;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#main #I{
+    border: 1px solid;
+    height: 30px;
+    border-radius: 24px;
+    padding: 10px;
+    width: 867px;
+}
+#main #I:focus {
+    outline: none;
+    color: black;
+}
+#btns {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+#btns input[type="submit"] {
+    margin: 0 5px;
+    padding: 8px 25px;
+    border-radius: 4px  ;
+}
+#headadv{
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#advlinks{
+display: flex;
+flex-direction: row;
+padding-top: 20px;
+padding-left: 20px;
+justify-content: space-between;
+background-color:black;
+}
+#advmain{
+    border: 1px ;
+    height: 1012px;;
+    
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: black;
+}
+#Ret{
+    color: white;
+    padding-top: 12px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+#Ret>a{
+    color: white;
+    text-decoration: none;
+}
+  #advlogo{
+    size: 4px;
+    color: white;
+    width: 100px;
+    height: 48px;
+}
+  #advlogo>h{
+    color: white;
+    text:bold;
+    font-size: 20px;
+    font-family: ;
+    font-weight: 600;
+}
+#advtitlie{
+    color: rgb(244, 75, 75);
+    font-size: 20px;
+    width: auto;
+    margin: 2px solid black;
+    padding: 15px 10px 10px 45px;
+}
+#log{
+    width: 113px;
+    height: 37px;
+}
+#h3s{
+    display: inline;
+    text-align: left;
+    padding: solid  10px;
+    color: white;
+    flex-direction: row;
+    width: auto;
+    font: 20px;
+    margin-left: 0px;
+    padding-left:45px;
+    margin: 19px auto 20px 0px;
+}
+#h3s>div{
+    display: flexbox;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: space-between;
+}
+text{
+    color: white;
+    display: flex;
+}
+#identy{
+    align-content: flex-start;
+    height: auto;
+    background-color: black;
+    width: 202px;
+    padding-left: 20px;
+    flex-direction: row;
+}
+#sugg>p{
+    align-content: flex-start;
+    height: auto;
+    padding-left: 18px;
+    font-size: smaller;
+    width: auto;
+    padding-bottom: 20px;
+    flex-direction: row;
+    color: white;
+}
+#identy>p{
+    padding-bottom: 17px;
+    margin-top: 2px;
+    color: white;
+    font-size: small;
+}
+span{
+    color: white;
+}
+#formsect {
+    display: flex;
+    padding-left: 25px;
+    flex-direction: row;
+    height: 400px;
+    width: 100%;
+}
+#frm{
+    display: flex;
+    height: auto;
+    align-items: flex-start;
+    width: 40%;
+    flex-direction: row;
+}
+#butonsearch{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+#frm>input{
+    width:100%;
+    padding-bottom: 20px;
+}
+#buttonsearch{
+    color: white;
+    height: 24px;
+    width:100%;
+    border: 1px solid white;
+     background-color: black;
+     margin-bottom: 11px;
+     padding-top: 7px 0px;
+}
+#but{
+    display: flex;
+    padding: 8px;
+    border-radius: 2px;
+    font-size: small;
+    font-weight: bold;
+    justify-content:flex-end;
+}
+#but>input{
+background-color: #4d90ef;
+padding: 8px;
+}
+#ft{
+    background-color: black;
+}
